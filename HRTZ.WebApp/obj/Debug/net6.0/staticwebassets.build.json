@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "OY2GTX6asEc2T0zCoj24R5aAnHDy8wdKa/VoZ2f8gU8=",
+  "Hash": "WMG0y0acCK87EsmF5N8BQTiwIw2VcgIe0ksGMYVekI4=",
   "Source": "HRTZ.WebApp",
   "BasePath": "_content/HRTZ.WebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "HRTZ.WebApp\\wwwroot",
       "Source": "HRTZ.WebApp",
-      "ContentRoot": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\Tinder\\HRTZ.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\HRTZ\\HRTZ.WebApp\\wwwroot\\",
       "BasePath": "_content/HRTZ.WebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\Tinder\\HRTZ.WebApp\\wwwroot\\images\\flower.jpg",
+      "Identity": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\HRTZ\\HRTZ.WebApp\\wwwroot\\images\\flower.jpg",
       "SourceId": "HRTZ.WebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\Tinder\\HRTZ.WebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\4L1M\\Downloads\\workshop15_in_class\\HRTZ\\HRTZ.WebApp\\wwwroot\\",
       "BasePath": "_content/HRTZ.WebApp",
       "RelativePath": "images/flower.jpg",
       "AssetKind": "All",

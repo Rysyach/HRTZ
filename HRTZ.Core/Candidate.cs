@@ -24,10 +24,6 @@ namespace HRTZ.Core
             Age = age;
             Gender = gender;
         }
-
-        public void Method1()
-        {
-            Console.WriteLine("Hi");
-        }
+        
     }
 }

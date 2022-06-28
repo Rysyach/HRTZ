@@ -1,0 +1,31 @@
+﻿@page
+@model HRTZ.WebApp.Pages.UserAuthorization
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Авторизация администратора</title>
+</head>
+<body>
+<div>
+    <form method="post">
+      <div class="form-group">
+        <label>Логин</label>
+        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Введите логин" required>
+      </div>
+      <div class="form-group">
+        <label>Пароль</label>
+        <input type="text" class="form-control" id="exampleInputPassword1" placeholder="Введите пароль" required>
+      </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+    </form>
+
+</div>
+</body>
+</html>

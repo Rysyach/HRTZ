@@ -10,3 +10,15 @@ C:\Users\4L1M\Downloads\workshop15_in_class\Tinder\HRTZ.Core\obj\Debug\net6.0\HR
 C:\Users\4L1M\Downloads\workshop15_in_class\Tinder\HRTZ.Core\obj\Debug\net6.0\refint\HRTZ.Core.dll
 C:\Users\4L1M\Downloads\workshop15_in_class\Tinder\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.pdb
 C:\Users\4L1M\Downloads\workshop15_in_class\Tinder\HRTZ.Core\obj\Debug\net6.0\ref\HRTZ.Core.dll
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\bin\Debug\net6.0\HRTZ.Core.deps.json
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\bin\Debug\net6.0\HRTZ.Core.dll
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\bin\Debug\net6.0\HRTZ.Core.pdb
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.csproj.AssemblyReference.cache
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.AssemblyInfoInputs.cache
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.AssemblyInfo.cs
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.csproj.CoreCompileInputs.cache
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.dll
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\refint\HRTZ.Core.dll
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\HRTZ.Core.pdb
+C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.Core\obj\Debug\net6.0\ref\HRTZ.Core.dll

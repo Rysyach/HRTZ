@@ -19,6 +19,10 @@ build_property._RazorSourceGeneratorDebug =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/CandidateForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlRm9ybS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -29,4 +33,8 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/UserAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckF1dGhvcml6YXRpb24uY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
