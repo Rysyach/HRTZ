@@ -15,11 +15,22 @@ namespace HRTZ.WebApp.Pages
             _dbContext = dbContext;
         }
 
-        public Candidate Candidate { get; private set; }
+        
+
+        [BindProperty]
+        public Candidate Candidate { get; set; }
 
         public void OnGet(int id)
         {
             Candidate = _dbContext.Candidates.First(c => c.Id == id);
+        }
+        
+        public IActionResult OnPost()
+        {
+            Candidate.OnTest = true;
+            _dbContext.Update(Candidate);
+            _dbContext.SaveChanges();
+            return Page();
         }
     }
 }

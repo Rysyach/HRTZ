@@ -12,4 +12,6 @@ public sealed class HRTZDbContext: DbContext
     
     public DbSet<User> Users { get; set; }
     public DbSet<Candidate> Candidates { get; set; }
+    
+    public DbSet<Admin> Admins { get; set; }
 }

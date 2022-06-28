@@ -2,25 +2,85 @@
 @model HRTZ.WebApp.Pages.CandidateModel
 @addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
 
+@{
+    Layout = "Shared/_Layout";
+}
 <div>
-    <p>@Model.Candidate.Name</p>
-    <p>@Model.Candidate.Age</p>
-    <p>@Model.Candidate.Gender.ToString()</p>
+    <h2>Кандидат @Model.Candidate.Login</h2>
 </div>
 <div>
-    <table frame="hsides">
-        <tr>
-            <td>
-                Логин
-            </td>
-        </tr>
-        @foreach (var user in Model.Candidate.LikedBy)
-        {
-            <tr>
-                <td>
-                    <a asp-page="./User" asp-route-id="@user.Id">@user.Login</a>
-                </td>
-            </tr>
-        }
-    </table>
+    @if (Model.Candidate.OnTest)
+    {
+        <h3>Ваша заявка</h3>
+        <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.Name</div>
+                    Имя
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.Age</div>
+                    Возраст
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.PhoneNumber</div>
+                    Номер телефона
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.Email</div>
+                    Электронная почта
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.City</div>
+                    Город
+                </div>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-start">
+                <div class="ms-2 me-auto">
+                    <div class="fw-bold">@Model.Candidate.WorkExperience</div>
+                    Опыт работы в сфере
+                </div>
+            </li>
+        </ul>
+    }
+    @if (!Model.Candidate.OnTest)
+    {
+        <h3>Подайте заявку</h3>
+        <form method="post">
+            <div class="form-group">
+                <label>Имя</label>
+                <input asp-for="@Model.Candidate.Name" type="text" class="form-control" placeholder="Введите имя" required>
+            </div>
+            <div class="form-group">
+                <label>Возраст</label>
+                <input asp-for="@Model.Candidate.Age" type="number" class="form-control" placeholder="Введите возраст" required>
+            </div>
+            <div class="form-group">
+                <label>Номер телефона</label>
+                <input asp-for="@Model.Candidate.PhoneNumber" type="text" class="form-control" placeholder="Введите номер телефона" required>
+            </div>
+            <div class="form-group">
+                <label>Электронная почта</label>
+                <input asp-for="@Model.Candidate.Email" type="text" class="form-control" placeholder="Введите электронную почту" required>
+            </div>
+            <div class="form-group">
+                <label>Город</label>
+                <input asp-for="@Model.Candidate.City" type="text" class="form-control" placeholder="Введите город" required>
+            </div>
+            <div class="form-group">
+                <label>Опыт работы в сфере</label>
+                <input asp-for="@Model.Candidate.WorkExperience" type="text" class="form-control" placeholder="Введите опыт работы" required>
+            </div>
+            <button type="submit" class="btn btn-primary">Сохранить</button>
+        </form>
+    }
+    
 </div>

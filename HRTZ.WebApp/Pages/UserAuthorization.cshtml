@@ -1,0 +1,35 @@
+﻿@page
+@model HRTZ.WebApp.Pages.UserAuthorization
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title></title>
+</head>
+<body>
+<h2>
+    Авторизация рекрутера
+</h2>
+<div>
+    <form method="post">
+        <div class="form-group">
+            <label>Логин</label>
+            <input asp-for="@Model.Login" type="text" class="form-control" placeholder="Введите логин" required>
+        </div>
+        <div class="form-group">
+            <label>Пароль</label>
+            <input asp-for="@Model.Password" type="text" class="form-control" placeholder="Введите пароль" required>
+        </div>
+        <button type="submit" class="btn btn-primary">Войти</button>
+    </form>
+    <a asp-page="./UserRegistration" class="btn btn-primary" role="button">Зарегистрироваться</a>
+
+</div>
+</body>
+</html>

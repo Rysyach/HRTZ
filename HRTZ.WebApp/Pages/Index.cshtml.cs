@@ -18,11 +18,10 @@ namespace HRTZ.WebApp.Pages
             _dbContext = dbContext;
         }
 
-        public User User { get; set; }
-
         public void OnGet()
         {
-            User = _dbContext.Users.First(u => u.Id == 1);
+            
+            
 
             //var user2 = _dbContext.Users.Include(u => u.Likes).First(u => u.Id == 1);
 

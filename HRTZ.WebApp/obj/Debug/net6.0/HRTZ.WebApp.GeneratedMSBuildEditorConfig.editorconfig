@@ -15,8 +15,28 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes = true
 build_property.MSBuildProjectDirectory = C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.WebApp
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Admin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW4uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/AdminAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5BdXRob3JpemF0aW9uLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/AdminRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQWRtaW5SZWdpc3RyYXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Candidate.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/CandidateAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlQXV0aG9yaXphdGlvbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/CandidateRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlUmVnaXN0cmF0aW9uLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Index.cshtml]
@@ -29,4 +49,12 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/User.cshtml]
 build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/UserAuthorization.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlckF1dGhvcml6YXRpb24uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/UserRegistration.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlclJlZ2lzdHJhdGlvbi5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 

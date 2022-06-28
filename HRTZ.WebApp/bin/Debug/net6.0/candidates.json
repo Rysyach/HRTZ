@@ -2,17 +2,24 @@
 	{
 		"Name": "Марат",
 		"Age": 28,
-		"Gender": 1
+		"Gender": 1,
+		"Login": "marat",
+		"Password": "1234"
+		
 	},
 	{
 		"Name": "Кира",
 		"Age": 18,
-		"Gender": 1
+		"Gender": 1,
+		"Login": "kira",
+		"Password": "1234"
 	},
 	{
 		"Name": "Софья",
 		"Age": 31,
-		"Gender": 1
+		"Gender": 1,
+		"Login": "sofya",
+		"Password": "1234"
 	},
 	{
 		"Name": "Дарья",
