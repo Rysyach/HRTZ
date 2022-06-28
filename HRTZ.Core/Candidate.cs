@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 
 namespace HRTZ.Core
 {
@@ -22,6 +23,11 @@ namespace HRTZ.Core
             Name = name;
             Age = age;
             Gender = gender;
+        }
+
+        public void Method1()
+        {
+            Console.WriteLine("Hi");
         }
     }
 }
