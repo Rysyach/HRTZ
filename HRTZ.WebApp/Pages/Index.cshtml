@@ -1,0 +1,86 @@
+﻿@page
+@model HRTZ.WebApp.Pages.Index
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+@{
+    Layout = "Shared/_Layout";
+}
+
+<div class="container">
+    <div class="row">
+        <div class="col-1">
+            <img src="images/flower.jpg" class="img-fluid"/>
+        </div>
+        <div class="col-1">
+            <img src="images/flower.jpg" class="img-fluid"/>
+        </div>
+        <div class="col-1">
+            <img src="images/flower.jpg" class="img-fluid"/>
+        </div>
+        <div class="col-1">
+            <img src="images/flower.jpg" class="img-fluid"/>
+        </div>
+        <div class="col-4">
+            <img src="images/flower.jpg" class="img-fluid"/>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <div class="row">
+                <div class="col">
+                    <p>@Model.User.Login</p>
+                </div>
+                <div class="col">
+
+                </div>
+            </div>
+        </div>
+        <div class="col-6">
+            <p>@Model.User.Password</p>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            <p>@Model.User.Login</p>
+        </div>
+        <div class="col-6">
+            <p>@Model.User.Password</p>
+        </div>
+        <div class="col">
+
+        </div>
+    </div>
+</div>
+
+
+<div>
+    <table style="border: 1px solid black; color: red">
+        <tr>
+            <td>
+                Имя
+            </td>
+            <td>
+                Возраст
+            </td>
+            <td>
+                Пол
+            </td>
+        </tr>
+        @foreach (var candidate in Model.User.Likes)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./Candidate" asp-route-id="@candidate.Id">@candidate.Name</a>
+                </td>
+                <td>
+                @candidate.Age
+                <td>
+                    @candidate.Gender.ToString()
+                </td>
+            </tr>
+        }
+    </table>
+</div>

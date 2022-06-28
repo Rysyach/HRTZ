@@ -1,0 +1,26 @@
+﻿@page "{id:int}"
+@model HRTZ.WebApp.Pages.CandidateModel
+@addTagHelper *, Microsoft.AspNetCore.Mvc.TagHelpers
+
+<div>
+    <p>@Model.Candidate.Name</p>
+    <p>@Model.Candidate.Age</p>
+    <p>@Model.Candidate.Gender.ToString()</p>
+</div>
+<div>
+    <table frame="hsides">
+        <tr>
+            <td>
+                Логин
+            </td>
+        </tr>
+        @foreach (var user in Model.Candidate.LikedBy)
+        {
+            <tr>
+                <td>
+                    <a asp-page="./User" asp-route-id="@user.Id">@user.Login</a>
+                </td>
+            </tr>
+        }
+    </table>
+</div>

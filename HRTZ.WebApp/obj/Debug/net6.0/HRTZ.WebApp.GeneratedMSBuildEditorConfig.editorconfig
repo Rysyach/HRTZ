@@ -1,0 +1,32 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = Tinder.WebApp
+build_property.RootNamespace = Tinder.WebApp
+build_property.ProjectDir = C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.WebApp\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = true
+build_property.MSBuildProjectDirectory = C:\Users\4L1M\Downloads\workshop15_in_class\HRTZ\HRTZ.WebApp
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Candidate.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcQ2FuZGlkYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/4L1M/Downloads/workshop15_in_class/HRTZ/HRTZ.WebApp/Pages/User.cshtml]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXNcVXNlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 

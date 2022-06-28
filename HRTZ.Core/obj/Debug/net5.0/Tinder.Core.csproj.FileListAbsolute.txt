@@ -1,0 +1,12 @@
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\bin\Debug\net5.0\Tinder.Core.deps.json
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\bin\Debug\net5.0\Tinder.Core.dll
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\bin\Debug\net5.0\ref\Tinder.Core.dll
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\bin\Debug\net5.0\Tinder.Core.pdb
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.csproj.AssemblyReference.cache
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.GeneratedMSBuildEditorConfig.editorconfig
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.AssemblyInfoInputs.cache
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.AssemblyInfo.cs
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.csproj.CoreCompileInputs.cache
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.dll
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\ref\Tinder.Core.dll
+C:\Repositories\hse\Workshop12\Tinder\Tinder.Core\obj\Debug\net5.0\Tinder.Core.pdb
