@@ -21,7 +21,7 @@ namespace HRTZ.Core
         public string Password { get; set; }
         public List<IPreference> Preferences { get; } = new List<IPreference>();
 
-        public virtual List<Candidate> Likes { get; set; } = new List<Candidate>();
+        public virtual List<Candidate> CandidatesOnTest { get; set; } = new List<Candidate>();
 
         public List<Candidate> FormQueue(List<Candidate> candidates)
         {

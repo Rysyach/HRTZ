@@ -2,16 +2,18 @@
 using HRTZ.WebApp;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
 
-namespace Tinder.WebApp.Migrations
+namespace HRTZ.WebApp.Migrations
 {
     [DbContext(typeof(HRTZDbContext))]
-    partial class TinderDbContextModelSnapshot : ModelSnapshot
+    [Migration("20220629051756_Update1")]
+    partial class Update1
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "6.0.3");

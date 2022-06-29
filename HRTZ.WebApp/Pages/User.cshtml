@@ -10,5 +10,25 @@
     <h2>Рекрутер @Model.User.Login</h2>
 </div>
 <div>
-   
+   @foreach (var candidate in Model.User.CandidatesOnTest)
+      {
+          <div>
+              <p class="text-uppercase"> </p>
+              <p class="text-uppercase">@candidate.Login</p>
+              <p class="text-lowercase">@candidate.Age</p>
+              <p class="text-lowercase">@candidate.City</p>
+              <p class="text-lowercase">@candidate.WorkExperience</p>
+              <p class="text-lowercase">@candidate.Email</p>
+              <p class="text-lowercase">@candidate.PhoneNumber</p>
+              <p class="text-uppercase"> </p>
+              <div class="btn-group" role="group">
+                  <form asp-page-handler="decline" method="post" asp-route-id="@candidate.Id">
+                      <button type="button" class="btn btn-primary">Отказать</button>
+                  </form>
+                  <form asp-page-handler="accept" method="post" asp-route-id="@candidate.Id">
+                      <button type="button" class="btn btn-primary">Принять</button>
+                  </form>
+              </div>
+          </div>
+      }
 </div>

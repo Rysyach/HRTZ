@@ -19,12 +19,14 @@ namespace HRTZ.Core
         public int Age { get; set; }
         public Gender Gender { get; set; }
         public virtual List<User> LikedBy { get; set; }
-        public virtual List<Admin> Testeres { get; set; }
+        public virtual List<Admin> Testers { get; set; }
         public int WorkExperience { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }
         public string City { get; set; }
         public bool OnTest { get; set; } = false;
+        public bool IsDeclined { get; set; } = false;
+        public bool IsApproved { get; set; } = false;
 
         public Candidate(string name, int age, Gender gender, string password, string login)
         {

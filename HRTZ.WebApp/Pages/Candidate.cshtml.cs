@@ -1,7 +1,10 @@
+#nullable enable
 using System.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using HRTZ.Core;
+using Microsoft.AspNetCore.Routing.Matching;
+using Microsoft.EntityFrameworkCore;
 
 
 namespace HRTZ.WebApp.Pages
@@ -18,19 +21,23 @@ namespace HRTZ.WebApp.Pages
         
 
         [BindProperty]
-        public Candidate Candidate { get; set; }
-
+        public Candidate? Candidate { get; set; }
+        
         public void OnGet(int id)
         {
-            Candidate = _dbContext.Candidates.First(c => c.Id == id);
+            Candidate = _dbContext.Candidates
+                .First(c => c.Id == id);
         }
         
-        public IActionResult OnPost()
+        public void OnPost()
         {
-            Candidate.OnTest = true;
-            
+            Candidate!.OnTest = true;
+            foreach (var admin in _dbContext.Admins)
+            {
+                admin.CandidatesOnTest.Add(Candidate);
+            }
+            _dbContext.Candidates.Add(Candidate);
             _dbContext.SaveChanges();
-            return Page();
         }
     }
 }
