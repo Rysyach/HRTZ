@@ -34,6 +34,6 @@ public class AdminRegistration : PageModel
         Admin = new Admin() { Login = login, Password = password };
         _dbContext.Admins.Add(Admin);
         _dbContext.SaveChanges();
-        return RedirectToPage("./UserAuthorization");
+        return RedirectToPage("./AdminAuthorization");
     }
 }

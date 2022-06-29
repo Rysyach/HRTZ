@@ -19,6 +19,7 @@ namespace HRTZ.Core
         public int Age { get; set; }
         public Gender Gender { get; set; }
         public virtual List<User> LikedBy { get; set; }
+        public virtual List<Admin> Testeres { get; set; }
         public int WorkExperience { get; set; }
         public string Email { get; set; }
         public string PhoneNumber { get; set; }

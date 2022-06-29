@@ -34,6 +34,6 @@ public class CandidateRegistration : PageModel
         Candidate = new Candidate() { Login = login, Password = password };
         _dbContext.Candidates.Add(Candidate);
         _dbContext.SaveChanges();
-        return RedirectToPage("./UserAuthorization");
+        return RedirectToPage("./CandidateAuthorization");
     }
 }

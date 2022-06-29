@@ -28,7 +28,7 @@ namespace HRTZ.WebApp.Pages
         public IActionResult OnPost()
         {
             Candidate.OnTest = true;
-            _dbContext.Update(Candidate);
+            
             _dbContext.SaveChanges();
             return Page();
         }
